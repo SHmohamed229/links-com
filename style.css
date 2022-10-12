@@ -1,0 +1,30 @@
+
+:root
+{
+    --min-color:#443;
+    --border-radius:95% 4% 97% 5%/4% 94% 3% 95%; 
+    --border-radius-hover:4% 94% 3% 95%/95% 4% 97% 5%; 
+    --border:.2rem solid var(--min-color);
+    --border-hover:.2rem dashed var(--min-color);
+}
+
+
+
+
+.btn
+{
+    display: inline-block;
+    padding: .9rem 1.5rem;
+    border-radius: var(--border-radius);
+    color: var(--min-color);
+    background: none;
+    border: var(--border);
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+.btn:hover
+{
+    border-radius: var(--border-radius-hover);
+    border: var(--border-hover);
+}
